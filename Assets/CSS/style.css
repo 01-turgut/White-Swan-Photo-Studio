@@ -132,7 +132,6 @@
     width: 200px;
     height: 100px;
     background-color: #d59301;
-    color: #302f37;
     position: relative;
     right: -850px;
     top: 550px;
@@ -146,4 +145,10 @@
     top: 20px;
     left: 30px;
     text-decoration: none;
+    
+}
+
+#g-button:hover{
+    background-color: #302f37;
+    transition:  0.7s;
 }
