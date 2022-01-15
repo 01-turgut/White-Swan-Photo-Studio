@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Josefin+Slab&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Amatic SC', cursive;
+
+}
+.logo{
+    width: 600px;
+    height: 200px;
+}
+
+.logo img{
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+}
+
+.logo h1{
+    font-size: 56px;
+}
