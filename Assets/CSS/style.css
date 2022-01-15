@@ -39,6 +39,7 @@
 
 
 
+
 /* Navigation Bar */
 
 #nav-bar {
@@ -155,3 +156,5 @@
     background-color: #302f37;
     transition:  0.7s;
 }
+
+/* Media queries for main article */
