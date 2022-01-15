@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Josefin+Slab&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
+
 
 /* Root Settings */
 * {
@@ -96,21 +96,54 @@
     position: absolute;
 
 }
+
 /* Main Article */
 
-#w-w-r-h{
+#w-w-r-h {
     font-size: 50px;
 }
 
-.about{
+.about {
     text-align: center;
-    
+
 }
 
-#w-w-r-p{
+#w-w-r-p {
+
     font-size: 35px;
     width: 350px;
     height: 100px;
     position: relative;
     left: 780px;
+}
+
+#left {
+    position: relative;
+    left: -760px;
+    top: -490px;
+}
+
+#right {
+    position: relative;
+    right: -480px;
+    top: -1400px;
+}
+#g-button{
+    width: 200px;
+    height: 100px;
+    background-color: #d59301;
+    color: #302f37;
+    position: relative;
+    right: -850px;
+    top: 550px;
+}
+
+#g-button a{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    position: relative;
+    top: 20px;
+    left: 30px;
+    text-decoration: none;
 }
