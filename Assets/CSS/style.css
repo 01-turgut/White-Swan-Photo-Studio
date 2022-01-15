@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Josefin+Slab&display=swap');
 
+/* Root Settings */
 *{
     margin: 0;
     padding: 0;
     font-family: 'Amatic SC', cursive;
 
 }
+
+/* Header and Logo */
+
 .logo{
     width: 600px;
     height: 200px;
@@ -15,8 +19,41 @@
     width: 150px;
     height: 150px;
     margin-left: 10px;
+    margin-top: 10px;
 }
 
 .logo h1{
-    font-size: 56px;
+    height: 150px;
+    position: relative;
+    top: -77%;
+    left: 160px;
+    font-size: 106px;
+    color: white;
+    background-color: #302f37;
+    text-align: center;
+    
+}
+
+
+/* Navigation Bar */
+
+#nav-bar{
+    width: 1250px;
+    height: 50px;
+    position: relative;
+    left: 222%;
+    top: -100%;
+}
+#nav-bar a{
+    text-decoration: none;
+    color:#302f37;
+    font-size: 45px;
+    margin-right: 50px;
+}
+
+#nav-bar a:hover{
+    border: 2px solid #302f37;
+    background-color: #302f37;
+    color: white;
+    border-radius: 50%;
 }
