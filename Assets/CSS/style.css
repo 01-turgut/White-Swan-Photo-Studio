@@ -8,7 +8,15 @@
     font-family: 'Amatic SC', cursive;
     
 }
-
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
+  
 
 /* Header and Logo */
 
@@ -31,13 +39,15 @@
     top: -77%;
     left: 160px;
     font-size: 106px;
-    color: white;
     background-color: #302f37;
     text-align: center;
     font-family: 'Amatic SC', cursive;
 
 }
-
+ .logo a{
+     text-decoration: none;
+     color: white;
+ }
 
 
 
@@ -75,7 +85,7 @@
 /* Hero image */
 
 #hero-img {
-    width: 100%;
+    width: 105%;
     height: 800px;
     background: url('/Assets/CSS/images/hero.jpg') no-repeat center center;
     margin-top: -25px;
@@ -114,7 +124,7 @@
 
 #w-w-r-h{
     text-align: center;
-    font-size: 55px;
+    font-size: 65px;
     position: relative;
     bottom: 300px;
 }
@@ -123,8 +133,8 @@
     display: inline-block;
     text-align: center;
     width: 290px;
-    height: 150;
-    font-size: 40px;
+    height: 50px;
+    font-size: 30px;
 }
 
 #left{
@@ -137,4 +147,75 @@
     float: right;
     position: relative;
     bottom: 90px;
+}
+
+
+#g-button h2{
+    width: 200px;
+    height: 85px;
+    padding-top: 30px;
+    background-color: #302f37;
+    position: absolute;
+    left: 840px;
+    top: 1770px;
+    text-align: center;
+    transition: 0.7s;
+    
+    
+}
+ /* gallery button */
+
+#g-button a{
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    
+   
+    
+}
+
+#g-button h2:hover{
+    background-color: #e1a920;
+    color: #302f37;
+    
+}
+
+/* footer */
+
+footer{
+    width: 105%;
+    height: 200px;
+    background-color: #e1a920;
+    position: relative;
+    bottom: 0;
+    top: 400px;
+   
+    
+   
+}
+
+.connect li{
+    list-style: none;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 160%;
+    margin-right: 150px;
+   
+}
+
+.connect i{
+    width: 250px;
+    height: 100px;
+    position: relative;
+    top: 50px;
+}
+
+footer h3{
+    text-align: center;
+    position: relative;
+    top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }
