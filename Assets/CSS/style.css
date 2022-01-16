@@ -6,17 +6,19 @@
     margin: 0;
     padding: 0;
     font-family: 'Amatic SC', cursive;
-    
+
 }
+
 #page-container {
     position: relative;
     min-height: 100vh;
-  }
-  
-  #content-wrap {
-    padding-bottom: 2.5rem;    /* Footer height */
-  }
-  
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;
+    /* Footer height */
+}
+
 
 /* Header and Logo */
 
@@ -44,10 +46,15 @@
     font-family: 'Amatic SC', cursive;
 
 }
- .logo a{
-     text-decoration: none;
-     color: white;
- }
+
+.logo a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
 
 
 
@@ -65,7 +72,7 @@
     left: 1350px;
     bottom: 200px;
 
-    
+
 }
 
 #nav-bar a {
@@ -85,7 +92,7 @@
 /* Hero image */
 
 #hero-img {
-    width: 105%;
+    width: 100%;
     height: 800px;
     background: url('/Assets/CSS/images/hero.jpg') no-repeat center center;
     margin-top: -25px;
@@ -122,35 +129,35 @@
 
 /* Main Article */
 
-#w-w-r-h{
+#w-w-r-h {
     text-align: center;
     font-size: 65px;
     position: relative;
     bottom: 300px;
 }
 
-#w-w-r-h p{
+#w-w-r-h p {
     display: inline-block;
     text-align: center;
-    width: 290px;
+    width: 310px;
     height: 50px;
-    font-size: 30px;
+    font-size: 40px;
 }
 
-#left{
+#left {
     position: relative;
     float: left;
     bottom: 90px;
 }
 
-#right{
+#right {
     float: right;
     position: relative;
     bottom: 90px;
 }
 
 
-#g-button h2{
+#g-button h2 {
     width: 200px;
     height: 85px;
     padding-top: 30px;
@@ -160,41 +167,43 @@
     top: 1770px;
     text-align: center;
     transition: 0.7s;
-    
-    
-}
- /* gallery button */
 
-#g-button a{
+
+}
+
+/* gallery button */
+
+#g-button a {
     text-decoration: none;
     color: white;
     font-size: 35px;
-    
-   
-    
+
+
+
 }
 
-#g-button h2:hover{
+#g-button h2:hover {
     background-color: #e1a920;
     color: #302f37;
-    
+
 }
 
 /* footer */
 
-footer{
+footer {
     width: 105%;
     height: 200px;
     background-color: #e1a920;
     position: relative;
     bottom: 0;
     top: 400px;
-   
-    
-   
+
+
+
 }
 
-.connect li{
+
+.connect li {
     list-style: none;
     display: inline-block;
     width: 50px;
@@ -202,20 +211,307 @@ footer{
     text-align: center;
     font-size: 160%;
     margin-right: 150px;
-   
+
 }
 
-.connect i{
+.connect i {
     width: 250px;
     height: 100px;
     position: relative;
     top: 50px;
 }
 
-footer h3{
+footer h3 {
     text-align: center;
     position: relative;
     top: 100px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
+
+/* media queries for medium screen size*/
+
+@media screen and (min-width:950px) and (max-width:1200px) {
+
+    .logo {
+        width: 100%;
+        position: relative;
+        margin-bottom: 50px;
+    }
+
+    #nav-bar {
+        clear: both;
+        float: none;
+        position: relative;
+        left: 0;
+        margin-top: 50px;
+    }
+
+    #hero-img {
+        background-size: 100%;
+
+    }
+
+    #hero-txt {
+        text-align: center;
+        width: 200px;
+        height: 230px;
+        font-size: 35px;
+
+    }
+
+    #w-w-r-h h2 {
+        clear: both;
+        float: none;
+        position: relative;
+        top: 50px;
+        font-size: 105px;
+    }
+
+    #w-w-r-h p {
+        clear: both;
+        float: none;
+        position: relative;
+        right: 20px;
+        top: 50px;
+    }
+
+    #left {
+        clear: both;
+        float: none;
+        top: 50px;
+    }
+
+    #right {
+        clear: both;
+        float: none;
+        top: 290px;
+    }
+
+    #g-button h2 {
+        clear: both;
+        float: none;
+        position: relative;
+        top: 80px;
+        right: -50px;
+
+    }
+
+    footer {
+        width: 100%;
+        position: relative;
+        bottom: 150px;
+    }
+
+    .connect {
+        text-align: center;
+
+    }
+
+}
+
+/* for medium screen sizes 950px wide and down */
+@media screen and (min-width:600px) and (max-width:950px) {
+
+    .logo {
+        width: 100%;
+        margin-left: 7px;
+    }
+
+
+    #nav-bar {
+        clear: both;
+        float: none;
+        position: relative;
+        left: 0;
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+
+    #hero-img {
+        background-size: 100%;
+        position: relative;
+        bottom: 100px;
+
+    }
+
+    #hero-txt {
+        text-align: center;
+        width: 150px;
+        height: 130px;
+        font-size: 20px;
+        position: relative;
+        left: 420px;
+        top: -670px;
+
+    }
+
+    #w-w-r-h h2 {
+        clear: both;
+        float: none;
+        position: relative;
+        top: -80px;
+        font-size: 105px;
+    }
+
+    #w-w-r-h p {
+        clear: both;
+        float: none;
+        position: relative;
+        right: 20px;
+        top: -90px;
+    }
+
+    #left {
+        clear: both;
+        float: none;
+        left: -5px;
+        bottom: 100px;
+    }
+
+    #right {
+        clear: both;
+        float: none;
+        bottom: 90px;
+        left: -5px;
+    }
+
+    #g-button h2 {
+        clear: both;
+        float: none;
+        position: relative;
+        top: -350px;
+        left: 500px;
+
+    }
+
+    footer {
+        width: 100%;
+        position: relative;
+        top: -280px;
+    }
+
+    .connect {
+        text-align: center;
+
+    }
+
+}
+
+@media screen and (max-width:640px) {
+    .logo {
+        width: 100%;
+
+    }
+
+    .logo h1 {
+        width: fit-content;
+        height: 60px;
+        position: relative;
+        top: -74px;
+        left: 77px;
+        font-size: 70px;
+        padding-bottom: 10px;
+
+    }
+
+    #swan img {
+        width: fit-content;
+        height: 70px;
+    }
+
+    #nav-bar {
+        clear: both;
+        float: none;
+        position: relative;
+        left: 0;
+        font-size: 20px;
+        margin-left: 20px;
+        margin-top: 150px;
+    }
+
+    #nav-bar a {
+        font-size: 40px;
+    }
+
+    #hero-img {
+
+        background-size: 100%;
+        position: relative;
+        bottom: 200px;
+        left: -50px;
+
+    }
+
+    #hero-txt {
+        text-align: center;
+        width: 150px;
+        height: 130px;
+        font-size: 20px;
+        position: relative;
+        left: 280px;
+        top: -770px;
+
+    }
+
+    #w-w-r-h h2 {
+        clear: both;
+        float: none;
+        position: relative;
+        top: -200px;
+        right: 30px;
+        font-size: 105px;
+    }
+
+    #w-w-r-h p {
+        clear: both;
+        float: none;
+        position: relative;
+        right: 40px;
+        top: -200px;
+    }
+
+    #left {
+
+        clear: both;
+        float: none;
+        left: -5px;
+        bottom: 100px;
+    }
+
+    #right {
+        clear: both;
+        float: none;
+        bottom: 90px;
+        left: -5px;
+    }
+
+    #g-button h2 {
+        clear: both;
+        float: none;
+        position: relative;
+        top: -300px;
+        left: 170px;
+
+    }
+
+    footer {
+        width: 100%;
+        top: 0;
+
+
+    }
+
+    .connect a {
+        width: 10px;
+        text-align: center;
+        display: inline-block;
+
+    }
+
+
+}
+
+/* gallery.html styles */
+
+
