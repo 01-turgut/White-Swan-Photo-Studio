@@ -142,19 +142,19 @@
 }
 
 #g-button a{
+    width: 100%;
     color: white;
-    text-align: center;
     font-size: 35px;
     position: relative;
-    top: 20px;
-    left: 30px;
+    top: -10px;
+    left: 20px;
     text-decoration: none;
-    
 }
+
+
 
 #g-button:hover{
     background-color: #302f37;
     transition:  0.7s;
 }
 
-/* Media queries for main article */
