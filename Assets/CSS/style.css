@@ -324,10 +324,37 @@ top: 30px;
 .boxes{
     width: 250px;
     height: 350px;
-    margin-left: 150px;
+    margin-left: 280px;
     background-color: rgba(48, 47, 55, .5);
     display: inline-block;
     position: relative;
     bottom: 850px;
 }
 
+.boxes h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 50px;
+    color: white;
+}
+
+.boxes h2{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.boxes a{
+    background-color: #302f37;
+    text-decoration: none;
+    color: white;
+}
+
+.boxes a:hover{
+    background-color: white;
+    color: #302f37;
+}
+
+/* Styles for contac.html
