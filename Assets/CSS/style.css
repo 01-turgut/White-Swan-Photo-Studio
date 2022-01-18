@@ -278,7 +278,7 @@ top: 30px;
 /* pricing.html styles */
 
 #pricing-pg{
-    background-image: url("/Assets/CSS/images/pricing-bg.jpg");
+    background-image: url("/Assets/CSS/images/pricing-bg.jpg") ;
     height: 900px;
     width: 100%;
     overflow: hidden;
@@ -287,8 +287,8 @@ top: 30px;
 #pricing-ft{
     width: 100%;
     position: relative;
-    bottom: 0;
-    top: 5px;
+    bottom: 550px;
+    top: 50px;
     background-color: #ffd62a;
 }
 
@@ -312,5 +312,22 @@ top: 30px;
 
 .center-icons li{
     margin-top: 30px;
+}
+
+/* main-container of pricing page */
+
+#info-container{
+    margin-bottom: -400px;
+    background-color: #ffd62a;
+}
+
+.boxes{
+    width: 250px;
+    height: 350px;
+    margin-left: 150px;
+    background-color: rgba(48, 47, 55, .5);
+    display: inline-block;
+    position: relative;
+    bottom: 850px;
 }
 
