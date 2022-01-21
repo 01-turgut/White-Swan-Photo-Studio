@@ -165,3 +165,41 @@ footer h3{
 .i-boxes a:hover{
     background-color: rgb(254,215,50);
 }
+
+/* Styles for Contact us page */
+.request{
+    background-color: rgba(254,215,50, .7);
+}
+
+.request label{
+    font-size: 1vw;
+}
+
+.request input{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1vw;
+}
+
+.request input[type="submit"]{
+    font-size: 1.5vw;
+   font-family: 'Amatic SC', cursive;
+   margin-right: 1vw;
+
+}
+
+.request input[type="reset"]{
+    font-size: 1vw;
+    font-family: 'Amatic SC', cursive;
+}
+
+.request input[type="submit"]:hover{
+    background-color: rgb(254,215,50);
+    color: white;
+    border-style: outset;
+}
+
+.request input[type="reset"]:hover{
+    background-color: red;
+    color: white;
+    border-style: outset;
+}
