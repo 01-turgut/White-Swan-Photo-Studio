@@ -1,54 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Josefin+Slab&display=swap');
 /* Root Settings */
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: 'Amatic SC', cursive;
 }
+
 /* Styles for logo */
-.logo a{
+.logo a {
     font-size: 10vh;
-    background-color: rgba(254,215,50);
+    background-color: rgba(254, 215, 50);
     color: white;
 }
+
 /* Styles for nav-bar */
 
-#nav-bar{
+#nav-bar {
     font-size: 2vw;
-    width: 50%;
+    width: 60%;
     height: 8vh;
     letter-spacing: 5px;
     display: inline-block;
     text-align: center;
-    margin-left: 50vw;
-    margin-top:-1vh;
-    padding-top: 1vh;
+    margin-left: 47vw;
+    position: relative;
+    bottom: 10vh;
 }
 
-#nav-bar a{
+#nav-bar a {
     text-decoration: none;
-    color: rgb(48,47,55);
+    color: rgb(48, 47, 55);
     margin-right: 15px;
     font-size: 2.5vw;
 }
 
-#nav-bar a:hover{
-    background-color: rgb(48,47,55);
+#nav-bar a:hover {
+    background-color: rgb(48, 47, 55);
     color: white;
     border-radius: 50%;
-    border: 1px solid rgb(48,47,55);
+    border: 1px solid rgb(48, 47, 55);
 }
+
 /* styles for main section */
 
 
-.main-c-h{
+.main-c-h {
     text-align: center;
     font-size: 3.5vw;
     letter-spacing: 0.8vw;
 }
 
-.main-c-p{
+.main-c-p {
     text-align: center;
     width: 30vh;
     display: block;
@@ -58,7 +61,7 @@
 
 /* Styles for gallery button */
 
-.g-button{
+.g-button {
     margin-top: 2vw;
     margin-bottom: 2vw;
     margin-left: 70vw;
@@ -66,34 +69,35 @@
     font-size: 2vw;
     width: 12vw;
     height: 12vh;
-    background-color: rgb(48,47,55);
+    background-color: rgb(48, 47, 55);
 }
 
-.g-button a{
+.g-button a {
     text-decoration: none;
     color: white;
 }
-.g-button:hover{
-    background-color: rgb(254,215,50);
+
+.g-button:hover {
+    background-color: rgb(254, 215, 50);
 }
 
 /* footer styles */
-footer{
+footer {
     height: 9vh;
-    background-color: rgb(254,215,50);
+    background-color: rgb(254, 215, 50);
 }
 
-footer ul{
+footer ul {
     list-style: none;
 }
 
-.footer-ul li{
+.footer-ul li {
     margin-left: 15.5vw;
     padding-top: 2vh;
     display: inline-block;
 }
 
-footer h3{
+footer h3 {
     margin-left: 26vw;
     position: relative;
     bottom: 0.4vw;
@@ -101,124 +105,250 @@ footer h3{
 
 /* Styles for gallery */
 
-.photos{
+.photos {
     column-gap: 2;
     column-count: 2;
 }
 
-.p-button{
+.p-button {
     padding-bottom: 10vw;
     margin-left: 68.7vw;
     padding-top: 3vh;
     font-size: 2vw;
     width: 15vw;
     height: 12vh;
-    background-color: rgb(48,47,55);
+    background-color: rgb(48, 47, 55);
 }
 
-.p-button a{
+.p-button a {
     text-decoration: none;
     color: white;
 }
-.p-button:hover{
-    background-color: rgb(254,215,50);
+
+.p-button:hover {
+    background-color: rgb(254, 215, 50);
 }
 
 /* Styles for Pricing page */
 
-.pricing img{
+.pricing img {
     width: 100%;
     background-repeat: no-repeat;
 }
-.title h1{
+
+.title h1 {
     text-align: center;
     font-size: 5vw;
 }
 
-.i-boxes{
+.i-boxes {
     margin-right: 63.7vw;
     width: 20%;
-    background-color: rgba(48,47,55,.5);
+    background-color: rgba(48, 47, 55, .5);
     margin-top: 3%;
     margin-bottom: 3%;
     text-align: centers;
     padding-left: 5vw;
 }
 
-.i-boxes-2{
+.i-boxes-2 {
     margin-top: -13.9vw;
     margin-left: 40vw;
 }
 
-.i-boxes-3{
+.i-boxes-3 {
     margin-top: -13.9vw;
     margin-left: 63.8vw;
 }
 
-.i-boxes a{
-    background-color: rgb(48,47,55);
+.i-boxes a {
+    background-color: rgb(48, 47, 55);
     text-decoration: none;
     color: white;
     margin-left: 7.9vw;
 }
 
-.i-boxes a:hover{
-    background-color: rgb(254,215,50);
+.i-boxes a:hover {
+    background-color: rgb(254, 215, 50);
 }
 
 /* Styles for Contact us page */
-.request{
-    background-color: rgba(254,215,50, .7);
+.request {
+    background-color: rgba(254, 215, 50, .7);
     margin-top: 8%;
 }
 
-.request label{
+.request label {
     font-size: 1vw;
     margin-right: 1vh;
 }
-.request label[for="date"]{
+
+.request label[for="date"] {
     margin-left: 1vh;
 }
 
-.request label[for="sname"]{
+.request label[for="sname"] {
     margin-left: 1vh;
 }
 
-.request h1{
+.request h1 {
     font-size: 10vh;
 }
-.request input{
+
+.request input {
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 1vw;
 }
 
-.request input[type="submit"]{
+.request input[type="submit"] {
     font-size: 1.5vw;
-   font-family: 'Amatic SC', cursive;
-   margin-right: 1vw;
+    font-family: 'Amatic SC', cursive;
+    margin-right: 1vw;
 
 }
 
-.request input[type="reset"]{
+.request input[type="reset"] {
     font-size: 1vw;
     font-family: 'Amatic SC', cursive;
 }
 
-.request input[type="submit"]:hover{
-    background-color: rgb(254,215,50);
+.request input[type="submit"]:hover {
+    background-color: rgb(254, 215, 50);
     color: white;
     border-style: outset;
 }
 
-.request input[type="reset"]:hover{
+.request input[type="reset"]:hover {
     background-color: red;
     color: white;
     border-style: outset;
 }
 
-.c-info{
+.c-info {
     font-size: 1.8vw;
     margin-left: 63%;
     position: relative;
     bottom: 15vw;
+}
+
+/* Media queries for mobile phones */
+@media screen and (max-width:586px) {
+    #nav-bar {
+        width: 100%;
+        margin-left: -1vw;
+        margin-top: 10vh;
+    }
+
+    #nav-bar a {
+        font-size: 20px;
+        letter-spacing: 0;
+    }
+
+    .logo img {
+        width: 10%;
+        height: 8vh;
+    }
+
+    .logo a {
+        font-size: 10vw;
+    }
+
+    .main-c-h {
+        font-size: 50px;
+    }
+
+    .main-c-p {
+        font-size: 25px;
+        margin-left: 13.5vw;
+    }
+
+    #male-p {
+        width: 45%;
+        margin-left: 3vw;
+    }
+
+    #wedding-p {
+        width: 50%;
+    }
+
+    .g-button {
+        width: 20%;
+        height: 5vh;
+    }
+
+    footer h3 {
+        margin-left: 17vw;
+        margin-top: -1vh;
+    }
+
+    /* Media queries for gallery page */
+
+    .photos img {
+        column-count: 2;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .p-button {
+        margin-top: -12vh;
+        margin-bottom: 5vh;
+    }
+
+    .p-button a {
+        font-size: 3vw;
+        width: 10%;
+    }
+
+    /* media queries for pricing page */
+
+    .title h1{
+        font-size: 9vw;
+    }
+
+    .i-boxes {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .i-boxes-2 {
+        margin-left: 0;
+        margin-top: 4vw;
+    }
+
+    .i-boxes-3 {
+
+    margin-left: 0;
+    margin-top: 4vw;
+    }
+
+    .pricing img{
+        margin-top: 0vh;
+    }
+
+    /* media queries for contact us page */
+    
+    .request{
+        width: 100%;
+    }
+    
+    .request label{
+        font-size: 5vw;
+    }
+
+    .c-info{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 11vh;
+        margin-bottom: 1vw;
+    }
+
+    .request input[type="submit"]{
+        font-size: 6vw;
+    }
+
+    .request input[type="reset"]{
+        font-size: 5vw;
+        letter-spacing: 4;
+    }
 }
