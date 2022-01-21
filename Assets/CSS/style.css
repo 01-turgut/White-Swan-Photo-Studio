@@ -233,6 +233,8 @@ footer h3 {
 
 /* Media queries for mobile phones */
 @media screen and (max-width:586px) {
+    
+    
     #nav-bar {
         width: 100%;
         margin-left: -1vw;
@@ -278,7 +280,7 @@ footer h3 {
 
     footer h3 {
         margin-left: 17vw;
-        margin-top: -1vh;
+        margin-top: 1vh;
     }
 
     /* Media queries for gallery page */
@@ -295,13 +297,13 @@ footer h3 {
     }
 
     .p-button a {
-        font-size: 3vw;
+        font-size: 3.4vw;
         width: 10%;
     }
 
     /* media queries for pricing page */
 
-    .title h1{
+    .title h1 {
         font-size: 9vw;
     }
 
@@ -318,37 +320,182 @@ footer h3 {
 
     .i-boxes-3 {
 
-    margin-left: 0;
-    margin-top: 4vw;
+        margin-left: 0;
+        margin-top: 4vw;
     }
 
-    .pricing img{
+    .pricing img {
         margin-top: 0vh;
     }
 
     /* media queries for contact us page */
-    
-    .request{
+
+    .request {
         width: 100%;
     }
-    
-    .request label{
+
+    .request label {
         font-size: 5vw;
     }
 
-    .c-info{
+    .c-info {
         width: 100%;
         margin-left: 0;
         margin-top: 11vh;
         margin-bottom: 1vw;
     }
 
-    .request input[type="submit"]{
+    .request input[type="submit"] {
         font-size: 6vw;
     }
 
-    .request input[type="reset"]{
+    .request input[type="reset"] {
         font-size: 5vw;
         letter-spacing: 4;
     }
+}
+
+/*******************************************************************************
+*                       Media queries for tablets                              *
+********************************************************************************/
+
+@media screen and (max-width:922px) {
+    #nav-bar {
+        width: 100%;
+        margin-left: -1vw;
+        margin-top: 10vh;
+    }
+
+    #nav-bar a {
+        font-size: 40px;
+        letter-spacing: 0;
+    }
+
+    .logo img {
+        width: 20%;
+        height: 16vh;
+        margin-left: -8vw;
+    }
+
+    .logo a {
+        font-size: 10vw;
+    }
+
+    .main-c-h {
+        font-size: 80px;
+    }
+
+    .main-c-p {
+        font-size: 30px;
+        margin-left: 17.5vw;
+    }
+
+    #male-p {
+        width: 45%;
+        margin-left: 3vw;
+    }
+
+    #wedding-p {
+        width: 50%;
+    }
+
+    .g-button {
+        width: 20%;
+        height: 5vh;
+    }
+
+    footer h3 {
+        margin-left: 22vw;
+        margin-top: 1vh;
+    }
+
+    /* Media queries for gallery page */
+
+    .photos img {
+        column-count: 2;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .p-button {
+        margin-top: -12vh;
+        margin-bottom: 5vh;
+    }
+
+    .p-button a {
+        font-size: 3.4vw;
+        width: 10%;
+    }
+
+    /* media queries for pricing page */
+
+    .title h1 {
+        font-size: 12vw;
+    }
+
+    .i-boxes {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-left: 10vw;
+    }
+
+    .i-boxes-2 {
+        margin-left: 10vw;
+        margin-top: 4vw;
+    }
+
+    .i-boxes-3 {
+
+        margin-left: 10vw;
+        margin-top: 4vw;
+    }
+
+    .i-boxes a{
+        margin-left: 44.6vh;
+        
+    }
+
+    .pricing img {
+        margin-top: 0vh;
+    }
+
+    /* media queries for contact us page */
+
+    .request {
+        width: 100%;
+        text-align: center;
+    }
+
+    .request label {
+        font-size: 5vw;
+    }
+
+    .c-info {
+        
+        width: 100%;
+        margin-left: 0;
+        margin-top: 16vh;
+        margin-bottom: 1vw;
+    }
+    
+    .c-info h2{
+        font-size: 45px;
+    }
+
+    .request input[type="submit"] {
+        font-size: 6vw;
+    }
+
+    .request input[type="reset"] {
+        font-size: 5vw;
+        letter-spacing: 4;
+    }
+    .request label[for="sname"]{
+        margin-left: 8vw;
+    }
+
+   
+
+    
 }
