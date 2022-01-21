@@ -122,3 +122,46 @@ footer h3{
 }
 .p-button:hover{
     background-color: rgb(254,215,50);
+}
+
+/* Styles for Pricing page */
+
+.pricing img{
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.title h1{
+    text-align: center;
+    font-size: 5vw;
+}
+
+.i-boxes{
+    margin-right: 63.7vw;
+    width: 20%;
+    background-color: rgba(48,47,55,.5);
+    margin-top: 3%;
+    margin-bottom: 3%;
+    text-align: centers;
+    padding-left: 5vw;
+}
+
+.i-boxes-2{
+    margin-top: -13.9vw;
+    margin-left: 40vw;
+}
+
+.i-boxes-3{
+    margin-top: -13.9vw;
+    margin-left: 63.8vw;
+}
+
+.i-boxes a{
+    background-color: rgb(48,47,55);
+    text-decoration: none;
+    color: white;
+    margin-left: 7.9vw;
+}
+
+.i-boxes a:hover{
+    background-color: rgb(254,215,50);
+}
