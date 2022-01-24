@@ -21,3 +21,6 @@ This site is for people who is intrested on hiring professional photographer for
   * Short information about the studio.
   * 1 image showing portrait work of the studio.
   * 1 image showing Wedding party's work of the studio.
+  ![About](https://i.imgur.com/R5yLhTR.png)
+
+  
