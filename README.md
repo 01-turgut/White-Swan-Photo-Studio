@@ -56,4 +56,24 @@ This site is for people who is intrested on hiring professional photographer for
 * Pricing
   * This page have eye catching hero image.
   * Information about the work studio does and the pricing for each event and how will the event work when user book for their event.
-  
+  * There is 3 different information box for each category, and each box has button called "Book Now".
+  * Button has a hover effect built in, colours used for button and hover effect is compatible with the theme of the site. 
+### Pricing Hero Image
+![hero-image](https://i.imgur.com/IkeIyRc.png)
+### Information Boxes 
+![info-boxes](https://i.imgur.com/a3JemNI.png)
+### Book Now Button With Out Hover Effect
+![no-hvr](https://i.imgur.com/1sdC2ps.png?2)
+### Book Now Button With Hover Effect
+![wth-hvr](https://i.imgur.com/AShj4Q3.png)
+
+* Contact Us 
+ * This page build for user to send their hiring request to the studio.
+ * This page has form to fill for user to give information about their event.
+ * Form has 2 buttons one for submitting and one for clearing the form.
+ * Added contact details for user to reach out if the provided information didn't answer their all questions.
+ * Added map location of the studio.
+ ### Form 
+ ![Form](https://i.imgur.com/yani19g.png)
+ ### Map
+ ![Map](https://i.imgur.com/rJatTpw.png)
