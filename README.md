@@ -106,6 +106,39 @@ Steps to deploy my site:
 
 ### [Live-site](https://01-turgut.github.io/White-Swan-Photo-Studio/ "Live Site")
 
+# Wireframes
+
+## Desktop
+
+### Home
+
+![Home](https://i.imgur.com/dqKrpvz.png)
+
+### Gallery 
+![gallery](https://i.imgur.com/ccoCHmG.png)
+
+### Pricing
+![pricing](https://i.imgur.com/xMODPZZ.png)
+
+### Contact Us
+![contact-us](https://i.imgur.com/JbLywAF.png)
+
+## Mobile 
+
+### Home
+![m-home](https://i.imgur.com/PmHhodS.png)
+
+### Gallery 
+![m-galery](https://i.imgur.com/Ym1twyg.png)
+
+### Pricing
+
+![m-pricing](https://i.imgur.com/yeLLX2O.png)
+
+### Contact Us
+![contact-us](https://i.imgur.com/S4VmqE2.png)
+
+
 # Credits
 All of the content written by the developer
 
@@ -127,8 +160,5 @@ For images I used 2 source:
 There is only 2 fonts family used in this site:
 1. 'Amatic SC', cursive
 1. Arial, Helvetica, sans-serif
-
-
-
 
 
