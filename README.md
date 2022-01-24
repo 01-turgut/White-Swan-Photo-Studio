@@ -9,7 +9,10 @@ This site is for people who is intrested on hiring professional photographer for
 ## Existing Features
 * Navigation bar
   * Featured in 4 pages, fully responsive on different size of devices.
-  * Eye catching built in hover effect on each link provided. 
+  * Eye catching built in hover effect on each link provided.
+  * I have used [Bootstrap](https://getbootstrap.com/docs/5.1/components/navbar/) ready navigation bar.
+  ![nav](https://i.imgur.com/p2zFDPy.png)
+
 
 ![Navigation-bar](https://i.imgur.com/hsCbmtW.png)
 
@@ -77,3 +80,55 @@ This site is for people who is intrested on hiring professional photographer for
  ![Form](https://i.imgur.com/yani19g.png)
  ### Map
  ![Map](https://i.imgur.com/rJatTpw.png)
+
+ # Testing
+ ## CSS Validation
+ ![css](https://i.imgur.com/SolJlDP.png)
+ ##  HTML Validation
+
+ ### Home
+ ![home](https://i.imgur.com/4hAGVrv.png)
+### Gallery
+![gallery](https://i.imgur.com/4uJn9yc.png)
+### Pricing 
+![pricing](https://i.imgur.com/c4f3WX7.png)
+### Contact Us
+![Contact-us](https://i.imgur.com/ZpcQ0zY.png)
+
+# Deployment
+I have used github pages for the deployment.
+Steps to deploy my site:
+1. Open repository on Github
+1. Go to settings
+1. Choose pages
+1. Click to "Branch" and choose "main" 
+1. Then click "Save"
+
+### [Live-site](https://01-turgut.github.io/White-Swan-Photo-Studio/ "Live Site")
+
+# Credits
+All of the content written by the developer
+
+## Media
+
+For images I used 2 source:
+1. [Pexels](https://www.pexels.com/)
+1. [Unsplash](https://unsplash.com/)
+
+# Site Theme
+## Colors
+ There Is only 2 colors:
+ 1. rgb(254, 215, 50);
+ ![color](https://i.imgur.com/13u8y2C.png)
+ 1. rgb(48, 47, 55)
+ ![clor](https://i.imgur.com/Rc26IFZ.png)
+
+## Fonts
+There is only 2 fonts family used in this site:
+1. 'Amatic SC', cursive
+1. Arial, Helvetica, sans-serif
+
+
+
+
+
