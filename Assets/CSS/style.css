@@ -311,6 +311,7 @@ footer h3 {
         display: block;
         width: 100%;
         text-align: center;
+        
     }
 
     .i-boxes-2 {
@@ -326,6 +327,11 @@ footer h3 {
 
     .pricing img {
         margin-top: 0vh;
+    }
+
+    .i-boxes a {
+        font-size: 4vw;
+        
     }
 
     /* media queries for contact us page */
