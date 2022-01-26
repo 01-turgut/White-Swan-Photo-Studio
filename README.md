@@ -64,7 +64,7 @@ This site is for people who is intrested on hiring professional photographer for
 ### Pricing Hero Image
 ![hero-image](https://i.imgur.com/IkeIyRc.png)
 ### Information Boxes 
-![info-boxes](https://i.imgur.com/a3JemNI.png)
+![info-boxes](https://i.imgur.com/afzijAC.png)
 ### Book Now Button With Out Hover Effect
 ![no-hvr](https://i.imgur.com/1sdC2ps.png?2)
 ### Book Now Button With Hover Effect
