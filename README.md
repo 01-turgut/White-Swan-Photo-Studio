@@ -77,7 +77,7 @@ This site is for people who is intrested on hiring professional photographer for
  * Added contact details for user to reach out if the provided information didn't answer their all questions.
  * Added map location of the studio.
  ### Form 
- ![Form](https://i.imgur.com/yani19g.png)
+ ![Form](https://i.imgur.com/jrGjt92.jpg)
  ### Map
  ![Map](https://i.imgur.com/rJatTpw.png)
 
