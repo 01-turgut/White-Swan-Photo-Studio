@@ -342,6 +342,7 @@ footer h3 {
 
     .request {
         width: 100%;
+        background-color: rgba(254, 215, 50, .3);
     }
 
     .request label {
@@ -371,7 +372,7 @@ footer h3 {
 
 @media screen and (max-width:930px) {
     #nav-bar {
-        width: 100%;
+        width: 90%;
         margin-left: -1vw;
         margin-top: 10vh;
     }
