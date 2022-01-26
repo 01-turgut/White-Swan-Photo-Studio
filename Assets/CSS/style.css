@@ -445,24 +445,24 @@ footer h3 {
 
     .i-boxes {
         display: block;
-        width: 100%;
+        width: 90%;
         text-align: center;
-        margin-left: 10vw;
+        margin-left: 3vw;
     }
 
     .i-boxes-2 {
-        margin-left: 10vw;
+        margin-left: 3vw;
         margin-top: 4vw;
     }
 
     .i-boxes-3 {
 
-        margin-left: 10vw;
+        margin-left: 3vw;
         margin-top: 4vw;
     }
 
     .i-boxes a{
-        margin-left: 44.6vh;
+        margin-left:50vw;
         
     }
 
