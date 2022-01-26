@@ -176,7 +176,7 @@ footer h3 {
 
 /* Styles for Contact us page */
 .request {
-    background: rgba(254, 215, 50, .7);
+    background-color: rgb(254, 215, 50);
     margin-top: 8%;
 }
 
@@ -187,9 +187,7 @@ footer h3 {
     align-items: flex-start;
 }
 
-.request label[for="date"] {
-    margin-left: 1vh;
-}
+
 
 
 
@@ -284,7 +282,7 @@ footer h3 {
 
     footer h3 {
         margin-left: 17vw;
-        margin-top: 1vh;
+        
     }
 
     /* Media queries for gallery page */
