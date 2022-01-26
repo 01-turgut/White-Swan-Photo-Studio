@@ -233,6 +233,10 @@ footer h3 {
     bottom: 15vw;
 }
 
+textarea{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* Media queries for mobile phones */
 @media screen and (max-width:586px) {
     
