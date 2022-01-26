@@ -96,7 +96,7 @@ This site is for people who is intrested on hiring professional photographer for
 ![Contact-us](https://i.imgur.com/ZpcQ0zY.png)
 
 ## Light House
-![lighthouse](./lighthouse.jpg)
+![lighthouse](https://i.imgur.com/8BSkM5z.jpg)
 
 # Deployment
 I have used github pages for the deployment.
