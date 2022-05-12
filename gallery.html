@@ -2,87 +2,123 @@
 <html lang="en">
 
 <head>
-
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c6ce1cfed6.js" crossorigin="anonymous"></script>
-    <title>White Swan Photo Studio|Gallery</title>
+    <title>White Swan Photo Studio|Home</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-light bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="container container-sm container-md container-lg container-xl logo">
-                    <a class="navbar-brand" href="index.html">
-                        <img src="./assets/images/swan.png" alt="" width="200" height="200"
-                            class="d-inline-block align-text-center">
-                        White Swan Photo Studio
-                    </a>
-                </div>
-                <div class="container container-sm container-md container-lg container-xl">
-                    <nav id="nav-bar">
-                        <a href="index.html">Home</a>
-                        <a href="gallery.html">Galery</a>
-                        <a href="pricing.html">Pricing</a>
-                        <a href="contact-us.html">Contact Us</a>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </nav>
+    <header class="container">
 
-   <!--Added 9 photos that will convince the user that he/she is in right page to see what is the studio's work like-->
-    <section class="container">
-        <div class="row ">
-            <div class="container container-sm container-md container-lg container-xl col-md-12 photos">
-                <img src="./assets/images/gallery-images/product-1.jpg" alt="organic oil">
-                <img src="./assets/images/gallery-images/product-2.jpg" alt="organic oil">
-                <img src="./assets/images/gallery-images/product-3.jpg" alt="men shoes">
-                <img src="./assets/images/gallery-images/weddign-1.jpg" alt="groom and bride">
-                <img src="./assets/images/gallery-images/wedding-2.jpg" alt="bride">
-                <img src="./assets/images/gallery-images/wedding-3.jpg" alt="bride throwing wedding flower">
-                <img src="./assets/images/gallery-images/portrat-1.jpg" alt="portrait of a girl">
-                <img src="./assets/images/gallery-images/portrait-2.jpg" alt="portrait of asian man">
-                <img src="./assets/images/gallery-images/portrait-3.jpg" alt="ortrait of asian man 2">
-            </div>
-        </div>
-    </section>
-
-    <!--Added a button for user to interact and go to pricing page of the site-->
-    <div class="container container-sm container-md container-lg container-xl p-button">
-        <a href="pricing.html">Book Yours Today <i class="fas fa-arrow-right"></i></a>
-    </div>
-
-    <div class="container container-sm container-md container-lg container-xl">
-        <footer>
-            <ul class="footer-ul">
-                <li>
-                    <a href="https://www.facebook.com/" target="_blank"><span class="sr-only">Facebook</span><i class="fab fa-facebook-square"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com/" target="_blank"><span class="sr-only">Youtube</span><i class="fab fa-youtube"></i></a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/login" target="_blank"><span class="sr-only">Twitter</span><i class="fab fa-twitter-square"></i></a>
-                </li>
+        <nav class="side-bar"> <input type="checkbox" id="check"> <label for="check" class="checkbtn"><i
+                    class="fa fa-bars"></i></label> <img src="/assets/images/swan.png" class="img-fluid logo" alt="...">
+            <label class="log">White Swan</label>
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="gallery.html">Galery</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
             </ul>
-            <h3>Written for educational purposes</h3>
-        </footer>
+        </nav>
+    </header>
+
+    <!-- Gallery -->
+    <div class="row">
+        <div class="col-lg-4 col-md-6 mb-2 mb-lg-0 ">
+            <img src="./assets/images/gallery-images/wedding-3.jpg" alt="bride throwing wedding flower"
+                class="w-100 shadow-1-strong rounded mb-2" />
+
+            <img src="./assets/images/gallery-images/wedding-2.jpg" alt="bride"
+                class="w-100 shadow-1-strong rounded mb-4" />
+        </div>
+
+        <div class="col-lg-4 mb-4 mb-lg-0">
+            <img src="./assets/images/gallery-images/weddign-1.jpg" alt="groom and bride"
+                class="w-100 shadow-1-strong rounded mb-4" />
+
+            <img src="./assets/images/gallery-images/product-3.jpg" alt="men shoes"
+                class="w-100 shadow-1-strong rounded mb-4" />
+        </div>
+
+        <div class="col-lg-4 mb-4 mb-lg-0">
+            <img src="./assets/images/gallery-images/product-2.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                alt="organic oil" />
+
+            <img src="./assets/images/gallery-images/product-1.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                alt="organic oil" />
+        </div>
+
+        <div class="col-lg-4 mb-4 mb-lg-0">
+            <img src="./assets/images/gallery-images/portrat-1.jpg" alt="portrait of a girl"
+                class="w-100 shadow-1-strong rounded mb-4" />
+
+            <img src="./assets/images/gallery-images/portrait-2.jpg" alt="portrait of asian man"
+                class="w-100 shadow-1-strong rounded mb-4" />
+        </div>
+    </div>
+    <!-- Gallery -->
+
+    <div class="container pricing-btn">
+        <a href="pricing.html" class="btn btn-outline-warning">View Pricing   <i class="fas fa-arrow-right"></i></a>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
-    </script>
 
+
+    <!-- Footer -->
+    <footer class="page-footer font-small cyan darken-3">
+
+        <!-- Footer Elements -->
+        <div class="container">
+
+            <!-- Grid row-->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-12 py-5">
+                    <div class="mb-5 flex-center">
+                        <!--Linkedin -->
+                        <a class="li-ic">
+                            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!--Instagram-->
+                        <a class="ins-ic">
+                            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row-->
+
+        </div>
+        <!-- Footer Elements -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">
+            <h6>Builted for educational purposes by: Turgut Gilgil</h4>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
