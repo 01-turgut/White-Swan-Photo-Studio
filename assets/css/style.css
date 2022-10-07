@@ -21,15 +21,19 @@ h1{
 }
 
 .hero-img{
-    padding: 0 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    width: 70%;
 }
 
 .header {
-    font-size: 7vw;
+    font-size: 5vw;
 }
 
 .lead {
-    font-size: 3vw;
+    font-size: 2vw;
     margin: 0 2vw;
 }
 
@@ -40,7 +44,7 @@ h1{
 
 .logo{
     margin-left: 0%;
-    width: 15%;
+    width: 5%;
 }
 
 .side-bar{
@@ -165,11 +169,3 @@ label.log{
     
 }
 
-
-@include media-breakpoint-up(lg) { 
-
-
-    form {
-        
-    }
-}
